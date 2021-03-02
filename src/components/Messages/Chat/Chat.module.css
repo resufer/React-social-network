@@ -1,0 +1,25 @@
+.chat {
+  width: 200px;
+  height: 150px;
+}
+
+  .chat img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .chat div {
+    width: 125px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: calc(1vw + 5px);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+  }
+
+    .chat div:hover {
+      color: rgba(0, 0, 0, 0.85);
+    }

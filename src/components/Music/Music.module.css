@@ -1,0 +1,11 @@
+.music {
+  color: aqua;
+  background-color: coral;
+  font-size: 33px;
+  margin: 0 auto;
+  transition: all 1s linear;
+}
+
+  .music:hover {
+    transform: translateX(100px) scale(0.5);
+  }

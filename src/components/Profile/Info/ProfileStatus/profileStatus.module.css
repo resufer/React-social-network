@@ -1,0 +1,6 @@
+.profileStatus {
+  width: 75%;
+  text-align: center;
+  font-size: calc(1.25vw + 5px);
+  font-weight: 600;
+}

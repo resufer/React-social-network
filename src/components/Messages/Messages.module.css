@@ -1,0 +1,16 @@
+.main {
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.messages {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.addMessageForm textarea{
+  width: calc(100% - 16px);
+  background-color: rgb(233, 228, 219);
+}

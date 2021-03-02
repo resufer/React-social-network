@@ -1,0 +1,9 @@
+.profileData .infoAboutMe {
+  font-size: calc(0.75vw + 5px);
+  width: 100%;
+}
+
+.profileData .contacts {
+  font-size: calc(0.75vw + 3px);
+  width: 100%;
+}

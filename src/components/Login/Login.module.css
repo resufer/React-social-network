@@ -1,0 +1,48 @@
+.btn {
+  color: black;
+  background-color: white;
+  animation: anBtn3 2s infinite linear;
+}
+
+  .btn:hover {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-name: anBtn2;
+    color: black;
+    background-color: white;
+  }
+
+  @keyframes anBtn {
+    0% {box-shadow: 5px 5px 1px red, -5px 5px 1px yellow, -5px -5px 1px green, 5px -5px 1px blue;}
+    25% {box-shadow: -5px 5px 1px red, -5px -5px 1px yellow, 5px -5px 1px green, 5px 5px 1px blue;}
+    50% {box-shadow: -5px -5px 1px red, 5px -5px 1px yellow, 5px 5px 1px green, -5px 5px 1px blue;}
+    75% {box-shadow: 5px -5px 1px red 5px 5px 1px yellow, -5px 5px 1px green, -5px -5px 1px blue;}
+    100% {box-shadow: 5px 5px 1px red, -5px 5px 1px yellow, -5px -5px 1px green, 5px -5px 1px blue;}    
+  }
+
+  @keyframes anBtn2 {
+    0%, 100% {box-shadow: 0px 5px 1px red, -5px 0px 1px rgb(73, 245, 4), 0px -5px 1px royalblue, 5px 0px 1px purple;}
+    25% {box-shadow: -5px 0px 1px red, 0px -5px 1px rgb(73, 245, 4), 5px 0px 1px royalblue, 0px 5px 1px purple;}
+    50% {box-shadow: 0px -5px 1px red, 5px 0px 1px rgb(73, 245, 4), 0px 5px 1px royalblue, -5px 0px 1px purple;}
+    75% {box-shadow: 5px 0px 1px red, 0px 5px 1px rgb(73, 245, 4), -5px 0px 1px royalblue, 0px -5px 1px purple;}
+  }
+
+  @keyframes anBtn3 {
+    0% {box-shadow: 5px 5px 1px royalblue, -5px -5px 1px greenyellow}
+    12.5% {box-shadow: 0px 5px 1px royalblue, 0px -5px 1px greenyellow}
+    25% {box-shadow: -5px 5px 1px royalblue, 5px -5px 1px greenyellow}
+    37.5% {box-shadow: -5px 0px 1px royalblue, 5px -0px 1px greenyellow}
+    50% {box-shadow: -5px -5px 1px royalblue, 5px 5px 1px greenyellow}
+    62.5% {box-shadow: 0px -5px 1px royalblue, 0px 5px 1px greenyellow}
+    75% {box-shadow: 5px -5px 1px royalblue, -5px 5px 1px greenyellow}
+    87.5% {box-shadow: 5px 0px 1px royalblue, -5px 0px 1px greenyellow}
+    100% {box-shadow: 5px 5px 1px royalblue, -5px -5px 1px greenyellow}
+  }
+
+
+
+.formSummaryError {
+  border: 2px solid red;
+  padding: 5px;
+  color: darkred;
+}
+

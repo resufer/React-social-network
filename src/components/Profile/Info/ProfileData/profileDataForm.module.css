@@ -1,0 +1,27 @@
+.profileForm {
+  display: flex;
+  width: 100%;
+}
+
+.profileForm[value='false'] {
+  flex-flow: column nowrap;
+}
+.profileForm[value='true'] {
+  flex-flow: row nowrap;
+}
+
+.profileForm .infoAboutMe {
+  font-size: calc(0.75vw + 4px);
+}
+
+.profileForm .contacts {
+  font-size: calc(0.75vw + 3px);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.profileForm .contacts input {
+  width: 8vw;
+  font-size: calc(0.7vw + 2px);
+}

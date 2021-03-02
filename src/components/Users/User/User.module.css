@@ -1,0 +1,59 @@
+.users {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  /* width: calc(75vw + 50px); */
+}
+
+  .users img {
+    margin: 5px auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  .users button {
+    margin: 5px auto;
+    width: 100px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-weight: 600;
+  }
+    .users button[value='true'] {
+      background-color: rgb(187, 10, 54);
+    }
+    .users button[value='false'] {
+      background-color: rgb(33, 173, 20);
+    }
+
+
+  .description {
+    width: calc(40vw + 25px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.658); 
+    border-radius: 10px;
+    height: 110px;
+  }
+
+    .fullName {
+      text-align: left;
+      font-size: calc(1vw + 6px);
+      font-weight: 500;
+      margin-left: 10px;
+    }
+
+    .status {
+      font-size: calc(0.75vw + 5px);
+      text-align: left;
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+
+  button:disabled, button[disabled] {
+    background-color: grey !important;
+  }
+

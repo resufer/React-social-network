@@ -1,0 +1,33 @@
+.aside {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: aside;
+  background-color: #14cc14dc;
+  width: 15vw;
+  height: 50vh;
+  transition: all 0.4s linear
+}
+
+  .aside:hover {
+    border-radius: 0% 0% 10% 0%;
+  }
+
+  .aside li {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+
+  .aside a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 2vw;
+  }
+
+    .aside a:active {
+      color: #A52A2A;
+    }
+
+      .aside a.open {
+        color: #FFFF00;
+      }

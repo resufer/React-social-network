@@ -1,0 +1,16 @@
+.message {
+  float: left;
+  margin: 5px 5px 0px 5px;
+  font-size: calc(0.75vw + 5px);
+  font-weight: 500;
+}
+
+.message[value='true'] {
+  float: left;
+  clear: left;
+  width: 30%;
+}
+.message[value='false'] {
+  float: right;
+  clear: right;
+}

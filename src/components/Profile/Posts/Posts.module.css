@@ -1,0 +1,48 @@
+.posts {
+  margin-left: 1vw;
+  width: 90%;
+}
+
+  .description {
+    font-weight: 500;
+    font-size: calc(1.25vw + 5px);
+  }
+
+  .entryField {
+    resize: vertical;
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.25);
+  }
+
+    .entryField:active, .entryField:focus {
+      background-color: white;
+    }
+
+  .sendMessage {
+    margin-top: 5px;
+    display: block;
+    margin-left: 42.5%;
+    width: 7.5%;
+    font-size: calc(0.75vw + 5px);
+    background-color: #0CB658;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 2.5px 5px;
+    transition: background-color 0.3s linear;
+    box-shadow: 2px 2px 1px black;
+  }
+
+    .sendMessage:hover {
+      background-color: rgb(9, 6, 177);
+      cursor: grab;
+    }
+
+    .sendMessage:active {
+      box-shadow: none;
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }

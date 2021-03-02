@@ -1,0 +1,47 @@
+.info {
+  width: 90%;
+  margin-left: 1vw;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 30%;
+  height: 45vh;
+}
+
+.fullName {
+  width: 75%;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-size: calc(1.25vw + 5px);
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.836);
+}
+
+.info img {
+  height: 20vw;
+  width: 75%;
+}
+
+.upload {
+  font-size: calc(1.25vw + 5px);
+  font-weight: 600;
+  width: 75%;
+  text-align: center;
+}
+
+.upload input {
+  visibility: hidden;
+  display: none;
+}
+
+
+.blockAboutMe {
+  width: 50%;
+}
+
+
+
